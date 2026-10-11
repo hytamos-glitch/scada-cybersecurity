@@ -151,8 +151,8 @@ en valide l'efficacité par une campagne de **tests d'intrusion**.
 **Haytam TOUILE** – Étudiant en Bachelor Réseaux, Cloud et Cybersécurité,
 ancien étudiant GRS à l'EST Ouarzazate.
 
-- LinkedIn : [linkedin.com/in/...](#)
-- Email : `auteur@exemple.com`
+- LinkedIn : [linkedin.com/in/haytam-touile-77748a307](https://www.linkedin.com/in/haytam-touile-77748a307)
+- Email : [haytamtouile9@gmail.com](mailto:haytamtouile9@gmail.com)
 
 ## Perspectives
 
