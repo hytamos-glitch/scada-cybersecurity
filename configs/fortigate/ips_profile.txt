@@ -1,0 +1,31 @@
+config ips sensor
+    edit "SCADA-IPS-Profile"
+        set comment "Profil IPS dedie a la protection SCADA Nour1"
+        config entries
+            edit 1
+                set rule 1001    # Detection inondation ICMP
+                set action block
+                set log enable
+                set severity high
+            next
+            edit 2
+                set rule 1002    # Detection inondation SYN
+                set action block
+                set log enable
+                set severity high
+            next
+            edit 3
+                set rule 2001    # Force brute SSH
+                set action block
+                set log enable
+                set severity critical
+            next
+            edit 4
+                set rule 5001    # Anomalie protocole Modbus
+                set action block
+                set log enable
+                set severity high
+            next
+        end
+    next
+end

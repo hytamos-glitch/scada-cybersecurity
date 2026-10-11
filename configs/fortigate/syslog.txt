@@ -1,0 +1,8 @@
+config log syslogd setting
+    set status enable
+    set server "192.168.28.x"    # IP du serveur Splunk
+    set port 514
+    set facility local7
+    set format default
+    set reliable disable
+end

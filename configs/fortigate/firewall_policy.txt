@@ -1,0 +1,12 @@
+config firewall policy
+    edit 3
+        set name "Block-WAN-to-SCADA"
+        set srcintf "port1"
+        set dstintf "port3"
+        set srcaddr "all"
+        set dstaddr "all"
+        set action deny
+        set logtraffic all
+        set comments "Protection de la zone SCADA industrielle"
+    next
+end
